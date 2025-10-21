@@ -1,0 +1,32 @@
+package labexam;
+import java.util.*;
+
+public class lab_act {
+
+    public static void main(String[] args) {
+        
+    int x = 2; // first term
+    int y = 3; // sec term / common diff
+    int z = 5; // num of terms
+
+    int [] item = new int[z];
+    int sum = 0;
+
+    for (int i = 0; i < z; i++){
+        item[i] = x + i * y;
+        sum += item[i];
+        System.out.println("Index " + i + " contains: " + item[i] );
+    }
+
+    System.out.println("The sum is: " + sum);
+
+
+
+
+
+
+    
+
+
+}
+}
